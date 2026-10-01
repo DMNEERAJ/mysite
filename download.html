@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Download VAYUROOP Logo Kit</title>
+<style>
+  * { box-sizing: border-box; margin:0; padding:0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: #0a0a0a; color:#fff; min-height:100vh; display:flex;
+         align-items:center; justify-content:center; padding:24px; }
+  .box { text-align:center; max-width:520px; }
+  .mark { width:120px; height:120px; margin: 0 auto 24px; }
+  h1 { font-size:32px; font-weight:700; letter-spacing:-0.5px; margin-bottom:8px; }
+  p { color:#999; margin-bottom:32px; font-size:15px; line-height:1.5; }
+  .btn { display:inline-block; background:#fff; color:#000; padding:18px 40px;
+         border-radius:12px; font-size:17px; font-weight:600; text-decoration:none;
+         cursor:pointer; border:none; transition: transform .1s; }
+  .btn:hover { transform: scale(1.03); background:#eee; }
+  .small { margin-top:20px; font-size:12px; color:#666; }
+  ul { text-align:left; margin:24px auto; max-width:360px; color:#aaa; font-size:14px; line-height:1.8; }
+</style>
+</head>
+<body>
+<div class="box">
+  <svg class="mark" viewBox="-2 -2 2054 1311" xmlns="http://www.w3.org/2000/svg">
+    <polygon fill="#fff" points="0,0 1025,0 520,1290"/>
+    <polygon fill="#fff" points="1026,0 2050,0 1540,1290"/>
+  </svg>
+  <h1>VAYUROOP Logo Kit</h1>
+  <p>Poora branding pack — favicon, full logo, t-shirt print, social profile, SVG vector, sab kuch ek ZIP mein.</p>
+
+  <a class="btn" href="vayuroop-logo-kit.zip" download="VAYUROOP-Logo-Kit.zip">⬇  DOWNLOAD ZIP  (2.1 MB)</a>
+
+  <ul>
+    <li>✅ Full logo (5 sizes, white bg)</li>
+    <li>✅ Favicon + Apple touch icon</li>
+    <li>✅ Instagram/FB profile pic</li>
+    <li>✅ Black t-shirt ke liye white mark</li>
+    <li>✅ White t-shirt ke liye black mark</li>
+    <li>✅ SVG vector (print-ready)</li>
+    <li>✅ Transparent versions</li>
+  </ul>
+
+  <p class="small">Agar download shuru na ho, upar wale button pe right-click karke "Save link as..." choose karo.</p>
+</div>
+<script>
+  // Auto-trigger download after slight delay
+  setTimeout(() => {
+    const a = document.createElement('a');
+    a.href = 'vayuroop-logo-kit.zip';
+    a.download = 'VAYUROOP-Logo-Kit.zip';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }, 600);
+</script>
+</body>
+</html>
